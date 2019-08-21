@@ -13,7 +13,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  **/
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.okayjam.spring")
+@ComponentScan("com.okayjam.spring.controller")
 public class WebConfig implements WebMvcConfigurer {
 
     /**
